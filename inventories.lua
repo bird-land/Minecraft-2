@@ -28,7 +28,7 @@ for i, each in ipairs(inventories) do
 	if temp == nil then
 		;
 	else
-		table.insert(invLists, temp])
+		table.insert(invLists, temp)
 	end
 end
 
@@ -43,6 +43,3 @@ print("You've selected: ", selection)
 selectionNum = tonumber(selection)
 
 print("Count: " invLists[selectionNum]["count"])
-
-
-
