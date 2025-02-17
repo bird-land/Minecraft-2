@@ -42,4 +42,4 @@ print("You've selected: ", selection)
 
 selectionNum = tonumber(selection)
 
-print("Count: " invLists[selectionNum]["count"])
+print("Count: ", invLists[selectionNum]["count"])
