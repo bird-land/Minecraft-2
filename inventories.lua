@@ -36,10 +36,10 @@ for i, each in ipairs(invLists) do
 	print(i, each["name"])
 end
 
-print("Select a seed...")
-selection = io.read()
-print("You've selected: ", selection)
-
-selectionNum = tonumber(selection)
-
-print("Count: ", invLists[selectionNum]["count"])
+while true do
+	print("Select a seed...")
+	selection = io.read()
+	print("You've selected: ", selection)
+	selectionNum = tonumber(selection)
+	print("Count: ", invLists[selectionNum]["count"])
+end
